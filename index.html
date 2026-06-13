@@ -1411,7 +1411,6 @@ window.startGame = function() {
   if (isMobile) document.getElementById('touch-controls').style.display = 'block';
   origStartGame();
 };
-document.getElementById('start-btn').removeEventListener('click', () => {});
 document.getElementById('start-btn').addEventListener('click', () => { initAudio(); window.startGame(); });
 document.getElementById('restart-btn').addEventListener('click', () => { initAudio(); window.startGame(); });
 
